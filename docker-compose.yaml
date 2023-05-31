@@ -1,11 +1,11 @@
 version: "3.9"
 services:
   my_app:
-    container_name: "Ecommrceapp"
+    container_name: "Ecommerceapp"
     image: chiragjain21/ecommerce-cicd:latest
     ports:
       - 8000:8000
     volumes:
-      - Ecommrce:/app
+      - Ecommerce:/app
 volumes:
-  Ecommrce:
+  Ecommerce:
